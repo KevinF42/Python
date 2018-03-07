@@ -3,7 +3,7 @@ from mcpi import block
 from time import sleep
 
 def init(): 
-    mc = Minecraft.create("192.168.2.3", 4711)
+    mc = Minecraft.create("127.0.0.1", 4711)
     x, y, z = mc.player.getPos()  
     return mc
 
